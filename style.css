@@ -1,0 +1,160 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float:right;
+	text-align: left;
+}
+.fa-bars{
+	color:#fff;
+	font-size: 30px !important;
+}
+.navbar-toggler{
+	outline: none;
+}
+/*----------banner-----------*/
+#banner
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	position: relative;
+	color:#fff;
+	padding-top: 5%;
+}
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+.line1{
+	z-index: 15;
+	opacity: 0.5;
+	background-color:linear-gradient(to right,#a517ba,#5f1782);
+}
+.line2{
+	z-index: 10;
+	opacity: 0.7;
+}
+.line3{
+	z-index: 5;
+	
+}
+
+.wave{
+	
+	width: 100%;
+	bottom:0;
+	left:0;
+	
+    position:absolute;
+	background-size:cover;
+	
+	
+	
+	
+}
+
+#services{
+	padding:80px 0px;
+
+
+}
+.service-img{
+	width: 100px;
+	margin-top: 20px;
+}
+.title::after{
+	content:'';
+	background:#7b1798;
+	height:5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: block;
+}
+#services .btn-primary{
+	padding:8px 25px;
+	border:none;
+	border-radius: 20px;
+	background-image:linear-gradient(to right,#a517ba,#5f1782);
+
+
+}
+
+<!--------------ABOUT US------------ >
+.about{
+	
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.about-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8%
+
+}
+.about ul li{
+	margin: 10px 0;
+}
+.about ul{
+	margin-left:20px;
+}
+
+<!------------TESTIMONIAL------------>
+#testimonials{
+	padding: 50px 0;
+	background-image:linear-gradient(to right,#a517ba,#5f1782);
+
+}
+.testimonials{
+	border-left: 4px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+} 
+.testimonials img{
+	height:60px;
+	width:60px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+<!--------------socoal media------------->
+#social-media{
+	background-image:linear-gradient(to right,#a517ba,#5f1782);
+	padding: 100px 0;
+}
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.social-icons img{
+	width:30px;
+	transition: 0.5s;
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
